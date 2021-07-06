@@ -8,10 +8,22 @@ echo "/_/  |_/_/ /_/\____//_/ /_/      /_/      /_/    /_/          \____/  /_/ 
 echo "                                                                                                            ";
 
 echo "This is a script that tests the 'anonymous' login feature for FTP servers."
-echo "This file should contain IP Addresses or Server/host names ONLY"
+echo "The file should contain IP Addresses or Server/host names ONLY"
+echo "The deliverables for this script will include files named after the hostnames (or IP Addresses) that were able to be accessed."
+echo "These files in only include the listing of contents in the main directory of each share that was accessed via anonymous login"
 echo "By Billiam Dean"
 echo ""
 echo ""
+echo ""
+echo "-------------------------------------------------------"
+echo "Usage: ./anon-ftp-check.sh"
+echo "What is the filename (or file path) w/ IP Addresses?"
+echo "myips.txt"
+echo "-------------------------------------------------------"
+echo ""
+echo ""
+echo ""
+
 
 echo "What is the filename (or file path) w/ IP Addresses?"
 read file
